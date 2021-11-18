@@ -1,0 +1,91 @@
+@import "../../../styles/settings.scss";
+@import 'bootstrap/scss/mixins/_breakpoints';
+@import 'bootstrap/scss/_functions';
+@import 'bootstrap/scss/_variables';
+
+.root {
+  .footerMenu {
+    background-color: $footer-bg;
+    padding: 3rem 0;
+
+    .menuWrapper {
+      h6 {
+        color: $footer-text;
+        text-transform: uppercase;
+        margin: 0 0 1rem 0;
+      }
+
+      ul {
+        margin: 0 0 1.5rem 0;
+        padding: 0;
+        list-style: none;
+        li {
+          a {
+            font-size: 14px;
+            line-height: 30px;
+            color: $footer-copyright-text;
+
+            &:hover {
+              color: $footer-text;
+            }
+          }
+        }
+      }
+    }
+
+    .paymentMethods {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        display: inline-block;
+      }
+    }
+  }
+
+  .bottomBar {
+    background-color: $footer-claim-bg;
+
+    :global(.container) > :global(.row) {
+      height: 95px;
+    }
+
+    .copyright {
+      p {
+        margin: 0;
+        color: $footer-copyright-text;
+        font-size: 14px;
+        line-height: 26px;
+      }
+
+      @include media-breakpoint-down(md) {
+        text-align: left !important;
+      }
+    }
+
+    .socialMedia {
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+          display: inline-block;
+          margin-left: 1rem;
+
+          a {
+            color: $footer-copyright-text;
+            text-decoration: none;
+
+            &:hover {
+              color: $primary;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// tablet view

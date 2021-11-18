@@ -1,0 +1,57 @@
+@import "../../../styles/settings.scss";
+
+.main {
+  background-color: $button-bg;
+  color: $button-text;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  padding: 10px 30px;
+
+  &:not(.noHover):hover {
+    color: $button-text !important;
+    background-color: $primary;
+    text-decoration: none;
+  }
+}
+
+.small {
+  @extend .main;
+  font-size: 13px;
+  line-height: 24px;
+  padding: 5px 10px;
+  font-weight: 400;
+}
+
+.outline {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid $button-border-color;
+  color: $button-border-text;
+  font-size: 13px;
+  line-height: 22px;
+
+  &:not(.noHover):hover {
+    background-color: $button-border-hover;
+    color: $button-border-text-hover;
+  }
+}
+
+.active {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: $primary;
+  color: white;
+  border: 1px solid $primary;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.active:hover {
+  color: #2a2a2a;
+  border: 1px solid #2a2a2a;
+}
+
+.hoverParent {
+  background: none;
+}

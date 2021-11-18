@@ -1,0 +1,129 @@
+@import "../../../styles/settings.scss";
+@import "bootstrap/scss/mixins/_breakpoints";
+@import "bootstrap/scss/_functions";
+@import "bootstrap/scss/_variables";
+
+.root {
+  .panelBar {
+    margin-bottom: 30px;
+    position: relative;
+    flex-wrap: wrap;
+
+    :global(.row) > * {
+      border-bottom: 4px solid $clientFeedback-panelBar-border;
+    }
+
+    @include media-breakpoint-down(lg) {
+      :global(.row) > * {
+        border-bottom: none;
+      }
+    }
+
+    .heading {
+      position: relative;
+
+      h3 {
+        color: $primary;
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 38px;
+        margin: 0;
+        letter-spacing: 1px;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        bottom: -3px;
+        left: 0;
+        width: 45px;
+        border-bottom: 4px solid $primary;
+
+        @include media-breakpoint-down(xs) {
+          border-bottom: none;
+        }
+      }
+    }
+
+    .dots {
+      position: absolute;
+      right: 0;
+      top: 0;
+
+      ul {
+        margin: 0;
+        padding: 0 0 0 1rem;
+        list-style: none;
+        background-color: $clientFeedback-bg-dots-list;
+        transform: translateY(15px);
+
+        li {
+          display: inline-block;
+          margin-left: 0.5rem;
+
+          a {
+            display: block;
+            width: 13px;
+            height: 13px;
+            border-radius: 6px;
+            background-color: $clientFeedback-bg-dots-link;
+            font-size: 0;
+
+            &.active,
+            &:hover {
+              background-color: $primary;
+            }
+          }
+        }
+      }
+
+      @include media-breakpoint-down(xs) {
+        top: -20px;
+      }
+    }
+  }
+  .feedback {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+    .icon {
+      margin: auto;
+      color: $clientFeedback-text;
+      font-size: 30px;
+    }
+
+    .quote {
+      margin: 20px 50px;
+      text-align: center;
+      color: $clientFeedback-text;
+    }
+
+    .person {
+      position: relative;
+      margin: auto;
+      height: 80px;
+      width: 300px;
+
+      .photo {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+      }
+
+      .details {
+        color: $clientFeedback-text;
+        position: absolute;
+        top: 10px;
+        left: 100px;
+        text-align: center;
+        max-width: fit-content;
+
+        h6 {
+          color: $clientFeedback-text-light;
+        }
+      }
+    }
+  }
+}

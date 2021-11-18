@@ -1,0 +1,86 @@
+@import "../../../styles/settings.scss";
+
+.container {
+  z-index: 1000;
+  position: fixed;
+  height: 250px;
+  width: 100%;
+  margin: auto;
+  bottom: 0;
+}
+
+.table {
+  height: 100%;
+  width: 70%;
+  background: $compareProduct-table-bg;
+  margin: auto;
+  padding: 25px;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  margin-right: 20px;
+  height: 200px;
+  width: 200px;
+  background: $compareProduct-image-bg;
+  position: relative;
+
+  button {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: $compareProduct-font-color;
+    text-align: center;
+    font-size: 50px;
+    background: $compareProduct-button-bg;
+    border: none;
+    opacity: 0;
+  }
+
+  button:hover {
+    opacity: 50%;
+  }
+
+  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.blank {
+  margin-right: 20px;
+  height: 200px;
+  width: 200px;
+  background: $compareProduct-blank-bg;
+  color: $compareProduct-font-color;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.compare {
+  height: 50px;
+  width: 200px;
+  top: 50px;
+  font-size: 25px;
+  line-height: 37px;
+  text-align: center;
+  color: $compareProduct-font-color;
+}
+
+.compare:hover {
+  text-decoration: none;
+  color: $compareProduct-font-color;
+}
+
+@media (max-width: 992px) {
+  .table {
+    width: 100%;
+  }
+}

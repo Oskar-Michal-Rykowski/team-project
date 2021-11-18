@@ -1,0 +1,105 @@
+$base-padding: 24px;
+
+$zIndexIcon: 150;
+$zIndexUl: 100;
+$zIndexLi: 1;
+
+// LIST OF COLORS(ONLY DEFINITIONS) - DON'T USE THIS, USE COLOR ASSIGNMENT:
+$darkOrange: #d58e32;
+$white: #ffffff;
+$darkGray: #363636;
+$lightGray: #b6b6b6;
+$blueGray: #e0e3ed;
+$gray: #d8d8d8; //rgb(216, 216, 216)
+$gray225: #e1e1e1; //= #e2e2e2 rgb(226, 226, 226)
+$gray169: #a9a9a9; // rgb(169, 169, 169)
+$gray247: #f4f5f7;
+$gray165: #a5a5a5;
+$gray204: #cccccc;
+$gray106: #6a6a6a;
+$gray80: rgba(80, 80, 80, 0.5);
+$lightBlue: #e8edf7;
+$lightPink: #fbf3f7;
+$mediumGray: #434343;
+$lightBlack: #292929; //= #2a2a2a => rgb(42, 42, 42)
+$almostBlack: rgba(1, 2, 2, 0.2); //#010202;
+
+// COLOR ASSIGNMENT TO ELEMENT:
+
+$header-topbar-bg: $mediumGray;
+$header-bg: $darkGray;
+
+$footer-claim-bg: $lightBlack;
+$footer-bg: $darkGray;
+$footer-text: $white;
+$footer-copyright-text: $gray169;
+
+$primary: $darkOrange;
+
+$text-color: $lightBlack;
+
+$form-border-color: $lightBlack;
+
+$button-bg: $lightBlack;
+$button-text: $white;
+$button-border-color: $lightBlack;
+$button-border-text: $lightBlack;
+$button-border-hover: $lightBlack;
+$button-border-text-hover: $white;
+
+$ad-big-bg: $gray106;
+$ad-big-front: $gray80;
+$ad-smallTop-bg: $lightBlue;
+$ad-smallBottom-bg: $lightPink;
+$ad-big-border: $white;
+
+$featureBox-border: $lightGray;
+$featureBox-icon-active: $white;
+$featureBox-text: $lightBlack;
+$featureBox-bg-color: $white;
+
+$companyClaim-cartCounter-text: $blueGray;
+$companyClaim-cartBox-text: $white;
+$companyClaim-phoneNumber-text: $gray;
+
+$newFurniture-bg-dots-link: $gray225;
+$newFurniture-bg-dots-list: $white;
+$newFurniture-menu-link-text: $lightBlack;
+$newFurniture-panelBar-border: $gray225;
+
+$menuBar-shadow: $almostBlack;
+$menuBar-bg: $white;
+$menuBar-menu-border: $white;
+$menuBar-menu-text-active: $white;
+
+$topBar-root-link-text: $white;
+
+$productBox-stars-link-text: $lightBlack;
+$productBox-root-bg: $white;
+$productBox-root-border: $gray225;
+$productBox-photo-bg: $gray247;
+$productBox-sale-text: $white;
+$productBox-sale-bg: $lightBlack;
+$productBox-line-border: $lightBlack;
+$productBox-price: $lightBlack;
+$productBox-oldPrice: $gray165;
+
+$brands-line: $gray204;
+$brands-button-bg: $lightBlack;
+$brands-button-arrow: $white;
+
+$productSearch-icon: $white;
+$productSearch-searchMenu-black: $lightBlack;
+$productSearch-searchMenu-white: $white;
+
+$compareProduct-table-bg: $mediumGray;
+$compareProduct-image-bg: $lightGray;
+$compareProduct-button-bg: $almostBlack;
+$compareProduct-blank-bg: $lightGray;
+$compareProduct-font-color: $white;
+
+$clientFeedback-bg-dots-link: $gray225;
+$clientFeedback-bg-dots-list: $white;
+$clientFeedback-panelBar-border: $gray225;
+$clientFeedback-text: $lightBlack;
+$clientFeedback-text-light: $lightGray;

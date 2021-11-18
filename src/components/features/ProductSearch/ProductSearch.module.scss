@@ -1,0 +1,112 @@
+@import "../../../styles/settings.scss";
+
+.root {
+  border: 1px solid $form-border-color;
+  display: inline-flex;
+  height: 45px;
+  color: $text-color;
+
+  .category {
+    border-right: 1px solid $form-border-color;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    .icon:first-child {
+      color: $primary;
+      position: absolute;
+      left: 10px;
+      z-index: $zIndexIcon;
+    }
+
+    .icon:last-child {
+      position: absolute;
+      right: 10px;
+      z-index: $zIndexIcon;
+    }
+
+  }
+  .category:hover {
+    background-color: $primary;
+
+    .icon:first-child {
+      color: $productSearch-icon;
+    }
+
+    .icon:last-child {
+      color: $productSearch-icon;
+    }
+  }
+
+  .searchMenu {
+    padding: 0;
+    margin: 0;
+    width: 215px;
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+
+    li {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 11px 35px 11px 54px;
+
+      ul {
+        margin: 0 ;
+        padding: 0 ;
+        position: absolute;
+        z-index: $zIndexUl;
+        display: none;
+        width: calc(100% + 2px);
+        border: 1px solid $productSearch-searchMenu-black;
+
+        li {
+          display: block;
+          padding: 11px 0px 11px 54px;
+          z-index: $zIndexLi;
+          color: $productSearch-searchMenu-black;
+          text-transform:uppercase;
+        }
+      }
+
+      &:hover {
+        background-color: $primary;
+        color: $productSearch-searchMenu-white;
+
+        ul {
+          position: absolute;
+          top: 43px;
+          left: 0px;
+          margin-left: -1px;
+          display: block;
+          background-color: $productSearch-searchMenu-white;
+
+        }
+      }
+    }
+  }
+
+  .searchField {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    input {
+      border: 0;
+      padding-left: 10px;
+      font-size: 14px;
+      outline: none;
+
+      &::placeholder {
+        color: $text-color;
+      }
+    }
+
+    button {
+      border: 0;
+      background-color: transparent;
+      outline: none;
+    }
+  }
+}
