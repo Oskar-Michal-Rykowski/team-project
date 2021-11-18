@@ -11,12 +11,12 @@ Zadania, które zrealizowałem:
 
 - Hovery buttonów w kartach produktów (1pkt);
 - Ostylowanie buttonów "Ulubiony" i "Dodany do porównania" (1pkt);
-- Dodawanie ulubionych produktów do stanu aplikacji (2pkt);
+- `Dodawanie do stanu aplikacji` ulubionych produktów (2pkt);
 - Stworzenie sekcji "Feedback" według designu (2pkt);
 - Dodanie animacji slidera w sekcji "Feedback" (2pkt);
-- Dodawanie produktów do porównania i wyświetlanie ich w specjalnym stackbarze (3pkt);
-- Zapisanie w stanie aplikacji odpowiedniego trybu zależenego od szerokości viewportu (3pkt);
-- Dodawanie oceny produktu w gwiazdkach do stanu aplikacji (3pkt);
+- `Dodawanie do stanu` produktów do porównania i wyświetlanie ich w specjalnym stackbarze (3pkt);
+- `Zapisanie w stanie` aplikacji odpowiedniego trybu zależenego od szerokości viewportu (3pkt);
+- `Dodawanie do stanu` oceny produktu w gwiazdkach aplikacji (3pkt);
 
 
 ## Inicjacja projektu
