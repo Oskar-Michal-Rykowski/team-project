@@ -37,7 +37,7 @@ class ClientFeedback extends React.Component {
           <div className={styles.panelBar}>
             <div className='row no-gutters align-items-end'>
               <div className={'col ' + styles.heading}>
-                <h3>Client Feedback</h3>
+                <h3>Clients Feedback</h3>
               </div>
               <div className={'col-auto ' + styles.dots}>
                 <ul>{dots}</ul>
