@@ -1,7 +1,6 @@
-
-
-
 # WDP Projekt Zespołowy
+
+Kliknij, by zobaczyć efekt finalny: https://git.heroku.com/oskar-team-project.git
 
 ## Inicjacja projektu
 
@@ -17,7 +16,6 @@ Zadania, które zrealizowałem:
 - `Dodawanie do stanu` produktów do porównania i wyświetlanie ich w specjalnym stackbarze (3pkt);
 - `Zapisanie w stanie` aplikacji odpowiedniego trybu zależenego od szerokości viewportu (3pkt);
 - `Dodawanie do stanu` oceny produktu w gwiazdkach aplikacji (3pkt);
-
 
 ## Inicjacja projektu
 
@@ -43,4 +41,3 @@ Projekt korzysta z Git Hooks - możliwości uruchamiania skryptów w reakcji na 
 
 Za każdym razem gdy wykonasz komendę `git commit` zostaną uruchomione testy jednostkowe, formatowanie oraz lintowanie
 dla plików, które zostały wybrane za pomocą `git add` i mają być zapisane w commicie.
-
