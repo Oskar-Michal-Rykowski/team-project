@@ -5,6 +5,22 @@
 
 ## Inicjacja projektu
 
+W ramach projektu grupowego zrealizowałem 7 zadań wartych łącznie 17 pkt. Projekt był nadzorowany przez mentora, a podział zadań odbywał się poprzez aplikację Jira.
+
+Zadania, które zrealizowałem:
+
+- Hovery buttonów w kartach produktów (1pkt);
+- Ostylowanie buttonów "Ulubiony" i "Dodany do porównania" (1pkt);
+- `Dodawanie do stanu aplikacji` ulubionych produktów (2pkt);
+- Stworzenie sekcji "Feedback" według designu (2pkt);
+- Dodanie animacji slidera w sekcji "Feedback" (2pkt);
+- `Dodawanie do stanu` produktów do porównania i wyświetlanie ich w specjalnym stackbarze (3pkt);
+- `Zapisanie w stanie` aplikacji odpowiedniego trybu zależenego od szerokości viewportu (3pkt);
+- `Dodawanie do stanu` oceny produktu w gwiazdkach aplikacji (3pkt);
+
+
+## Inicjacja projektu
+
 Po sklonowaniu projektu, zainstaluj wymagane paczki komendą `yarn install` (lub `npm install`).
 
 Teraz możesz zacząć pracę, korzystając z przygotowanych taska `yarn start` (lub `npm start`).
