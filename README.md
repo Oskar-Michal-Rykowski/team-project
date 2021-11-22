@@ -1,6 +1,6 @@
 # WDP Projekt Zespołowy
 
-Kliknij, by zobaczyć efekt finalny: https://git.heroku.com/oskar-team-project.git
+Kliknij, by zobaczyć efekt finalny: https://oskar-team-project.herokuapp.com/
 
 ## Inicjacja projektu
 
